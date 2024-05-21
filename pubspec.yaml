@@ -1,0 +1,48 @@
+name: flutter_layout
+description: "A new Flutter project."
+publish_to: 'none'
+version: 0.1.0
+
+environment:
+  sdk: '^3.3.0'
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^3.0.0
+
+flutter:
+  uses-material-design: true
+  assets:
+    - assets/images/ponorogo1.jpg
+    - assets/images/ponorogo2.jpeg
+    - assets/images/ponorogo3.jpeg
+    - assets/images/madiun1.jpg
+    - assets/images/madiun2.jpg
+    - assets/images/madiun3.jpg
+    - assets/images/magetan1.jpg
+    - assets/images/magetan2.jpg
+    - assets/images/magetan3.jpg
+    - assets/images/kediri1.jpg
+    - assets/images/kediri2.jpg
+    - assets/images/kediri3.jpg
+    - assets/images/pacitan1.jpg
+    - assets/images/pacitan2.jpg
+    - assets/images/pacitan3.jpg
+    - assets/images/ngawi1.jpg
+    - assets/images/ngawi2.jpg
+    - assets/images/ngawi3.jpeg
+  fonts:
+    - family: Lobster
+      fonts:
+        - asset: assets/fonts/Lobster-Regular.ttf
+    
+    - family: Oxygen
+      fonts:
+        - asset: assets/fonts/Oxygen-Regular.ttf
+        - asset: assets/fonts/Oxygen-Bold.ttf
+          weight: 700
